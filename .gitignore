@@ -1,0 +1,24 @@
+# окружение и кэш
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+.env
+
+# результаты работы парсера и отладочные файлы
+*.csv
+*.html
+dom_structure.txt
+*_structure*.txt
+debug/
+chrome_profile/
+
+# локальные эксперименты (остаются на диске, в репозиторий не попадают)
+DOM_tree.py
+find_*.py
+test_*.py
+check_*.py
+
+# копии от cleanup.py
+*.bak
+cleanup.py
